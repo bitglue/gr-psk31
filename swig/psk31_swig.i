@@ -8,6 +8,9 @@
 %include "psk31_swig_doc.i"
 
 %{
+#include "psk31/varicode_decode.h"
 %}
 
 
+%include "psk31/varicode_decode.h"
+GR_SWIG_BLOCK_MAGIC2(psk31, varicode_decode);

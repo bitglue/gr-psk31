@@ -25,7 +25,8 @@ include(GrPlatform) #define LIB_SUFFIX
 include_directories(${Boost_INCLUDE_DIR})
 link_directories(${Boost_LIBRARY_DIRS})
 
-add_library(gnuradio-psk31 SHARED )
+add_library(gnuradio-psk31 SHARED
+    varicode_decode_impl.cc )
 target_link_libraries(gnuradio-psk31 ${Boost_LIBRARIES} ${GRUEL_LIBRARIES} ${GNURADIO_CORE_LIBRARIES})
 set_target_properties(gnuradio-psk31 PROPERTIES DEFINE_SYMBOL "gnuradio_psk31_EXPORTS")
 

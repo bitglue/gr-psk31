@@ -22,5 +22,5 @@
 ########################################################################
 install(FILES
     api.h
-    DESTINATION include/psk31
+    varicode_decode.h DESTINATION include/psk31
 )
