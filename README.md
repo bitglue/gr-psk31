@@ -1,5 +1,7 @@
 gr-psk31
 ========
 
-Here are implemented some blocks for [GNU radio](http://gnuradio.org/)
-to grok [PSK31](http://www.arrl.org/psk31-spec).
+**DEPRECATED**
+
+Please use [gr-radioteletype](https://github.com/bitglue/gr-radioteletype)
+which includes the varicode decoder implemented here.
